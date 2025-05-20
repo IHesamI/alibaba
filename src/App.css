@@ -1,0 +1,20 @@
+.a-modal-container, .a-modal-container .a-modal-backdrop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.a-modal-container {
+    z-index: 700;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-modal-backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007a;
+}

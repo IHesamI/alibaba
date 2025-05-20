@@ -201,10 +201,7 @@ export default function People() {
             <style
                 dangerouslySetInnerHTML={{ __html: ".sf-hidden{display:none!important}" }}
             />
-            <meta
-                httpEquiv="content-security-policy"
-                content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"
-            />
+            
             <div id="app">
                 <div className="wrapper">
                     <header id="header" className="header is-desktop" data-v-76127e4a="">

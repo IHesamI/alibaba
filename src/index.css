@@ -1,0 +1,14 @@
+.a-modal-container, .a-modal-container .a-modal-backdrop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.a-modal-container {
+    z-index: 700;
+    position: fixed;
+    display: flex
+;
+    justify-content: center;
+}

@@ -79,10 +79,7 @@ export default function TravelHistory() {
             <style
                 dangerouslySetInnerHTML={{ __html: ".sf-hidden{display:none!important}" }}
             />
-            <meta
-                httpEquiv="content-security-policy"
-                content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"
-            />
+           
             <div id="app">
                 <div className="wrapper">
                     <header id="header" className="header is-desktop" data-v-76127e4a="">
@@ -602,7 +599,7 @@ export default function TravelHistory() {
                                                 </div>
                                                 <div className="flex items-center gap-3">
                                                     <a
-                                                        href="https://www.alibaba.ir/profile/orders/1074818789"
+                                                        href={'/order/1'}
                                                         className="btn is-md is-solid-primary flex items-center gap-1 !btn-tertiary-nl-blue"
                                                     >
                                                         <span className="text-callout">
@@ -714,7 +711,7 @@ export default function TravelHistory() {
                                                 </div>
                                                 <div className="flex items-center gap-3">
                                                     <a
-                                                        href="https://www.alibaba.ir/profile/orders/1074053369"
+                                                        href="/order/1"
                                                         className="btn is-md is-solid-primary flex items-center gap-1 !btn-tertiary-nl-blue"
                                                     >
                                                         <span className="text-callout">
